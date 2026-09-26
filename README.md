@@ -132,3 +132,4 @@ Notebook 會在執行時下載資料並產生圖片，請保持網路連線。
 - [plate-boundaries.md](plate-boundaries.md)：世界板塊交界帶整理表，第三部分選區域用；附範圍、兩側板塊與佐證提示。
 - [earthquake-figure-guide.md](earthquake-figure-guide.md)：地震學常見圖像，每種圖想回答什麼、怎麼讀，附範例。
 - [figure-examples.md](figure-examples.md)：論文圖收集，漂亮的和普通的放在一起比較。
+- [case-studies/2026-sunda-strait-krakatau/](case-studies/2026-sunda-strait-krakatau/)：真實案例，作業格式示範——2026 年 9 月印尼喀拉喀托之子噴發，對照巽他海峽隱沒帶。

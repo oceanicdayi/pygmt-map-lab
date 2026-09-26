@@ -14,6 +14,10 @@
 
 ## 看到什麼
 
+- `plate_boundary_map.png`：直接回答「巽他海峽位在哪個板塊邊界」——不是從地震分布反推，而是疊上
+  Peter Bird (2003) PB2002 板塊邊界模型的真實分類資料。整段邊界在 PB2002 裡標為 `SU/AU`、類型
+  `SUB`（隱沒帶），紅色三角前緣符號尖端指向上覆的巽他板塊（SU，歐亞板塊的一部分），另一側是印澳
+  板塊在 Bird 模型中對應的澳洲板塊（AU）。
 - `sunda_strait_map.png`：範圍 100–109°E、9–3°S。地形上明顯看到巽他海溝（西南側深藍）、火山弧
   沿蘇門答臘東南岸與爪哇西岸排列（白色三角形為 NCEI/GVP 全新世火山，共 31 座），喀拉喀托之子
   （黃色三角形）正好位在海溝與弧後之間、蘇門答臘與爪哇的交會處。地震（USGS，2000 年起 M≥4.5，
@@ -47,9 +51,10 @@
 
 - 地震：USGS FDSNWS event API，`starttime=2000-01-01`、`minmagnitude=4.5`，範圍見 `map_section.py`。
 - 火山：NOAA NCEI hazard-service API（全新世火山清單，源自 Smithsonian GVP）。
+- 板塊邊界：Peter Bird (2003) PB2002 模型，經 [fraxen/tectonicplates](https://github.com/fraxen/tectonicplates) 轉存的 GeoJSON。
 - 地形：GMT 遠端資料 `earth_relief`，02 角分解析度。
 - 隱沒速率、張裂量、震源機制等數字引自 Harjono et al. (1991, *Tectonics*)、Nishimura et al. (1992,
   *GeoJournal*)、Dahren et al. (2012, *J. Petrology*)；2018 年崩塌與海嘯引自 Grilli et al. (2019,
   *Sci. Rep.*)、Ye et al. (2020, *Science Advances*)、Perttu et al. (2020, *EPSL*)。完整投影片版本見
   [`2026_utaipei_plate_tectonic` 的 `artifacts/喀拉喀托之子與板塊構造.pdf`](https://github.com/oceanicdayi/2026_utaipei_plate_tectonic/blob/main/artifacts/%E5%96%80%E6%8B%89%E5%96%80%E6%89%98%E4%B9%8B%E5%AD%90%E8%88%87%E6%9D%BF%E5%A1%8A%E6%A7%8B%E9%80%A0.pdf)。
-- 重跑：`python3 map_section.py`（需要 pygmt 0.17，含 pandas、numpy；需連網）。
+- 重跑：`python3 map_section.py`、`python3 plate_boundary_map.py`（需要 pygmt 0.17，含 pandas、numpy；需連網）。

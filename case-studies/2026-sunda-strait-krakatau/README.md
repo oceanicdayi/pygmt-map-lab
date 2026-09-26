@@ -14,6 +14,10 @@
 
 ## 看到什麼
 
+- `global_plate_context.png`：把上面局部放大的邊界放回全球脈絡。畫出 PB2002 全部邊界，依聚合
+  （紅）／張裂（藍）／錯動（灰）上色，黃色星號標出巽他海峽。可以看到它是環太平洋、喜馬拉雅一帶
+  連續聚合帶的一部分——蘇門答臘–爪哇隱沒帶往西北接安達曼海、緬甸弧，往東接小巽他群島、班達弧，
+  最終銜接紐幾內亞與環太平洋火環。
 - `plate_boundary_map.png`：直接回答「巽他海峽位在哪個板塊邊界」——不是從地震分布反推，而是疊上
   Peter Bird (2003) PB2002 板塊邊界模型的真實分類資料。整段邊界在 PB2002 裡標為 `SU/AU`、類型
   `SUB`（隱沒帶），紅色三角前緣符號尖端指向上覆的巽他板塊（SU，歐亞板塊的一部分），另一側是印澳
@@ -57,4 +61,4 @@
   *GeoJournal*)、Dahren et al. (2012, *J. Petrology*)；2018 年崩塌與海嘯引自 Grilli et al. (2019,
   *Sci. Rep.*)、Ye et al. (2020, *Science Advances*)、Perttu et al. (2020, *EPSL*)。完整投影片版本見
   [`2026_utaipei_plate_tectonic` 的 `artifacts/喀拉喀托之子與板塊構造.pdf`](https://github.com/oceanicdayi/2026_utaipei_plate_tectonic/blob/main/artifacts/%E5%96%80%E6%8B%89%E5%96%80%E6%89%98%E4%B9%8B%E5%AD%90%E8%88%87%E6%9D%BF%E5%A1%8A%E6%A7%8B%E9%80%A0.pdf)。
-- 重跑：`python3 map_section.py`、`python3 plate_boundary_map.py`（需要 pygmt 0.17，含 pandas、numpy；需連網）。
+- 重跑：`python3 map_section.py`、`python3 plate_boundary_map.py`、`python3 global_plate_context.py`（需要 pygmt 0.17，含 pandas、numpy；需連網）。

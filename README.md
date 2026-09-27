@@ -8,11 +8,11 @@
 
 **[先看課程介紹與 Gallery →](intro.md)**
 
-第一次用 Notebook 或 GitHub？先看 [操作教學影片（約 8 分鐘）](docs/video/notebook_github_tutorial.mp4)：從開啟 Colab、一格一格執行、看懂錯誤訊息，到用 GitHub 繳交作業。
+第一次用 Notebook 或 GitHub？先看 [操作教學影片（約 8 分鐘）](https://oceanicdayi.github.io/2026_utaipei_plate_tectonic/artifacts/22-notebook_github_tutorial.mp4)：從開啟 Colab、一格一格執行、看懂錯誤訊息，到用 GitHub 繳交作業。
 
-<a href="docs/video/notebook_github_tutorial.mp4"><img src="docs/video/notebook_github_tutorial_poster.jpg" alt="操作教學影片：Notebook 與 GitHub 上手指南（點擊播放）" width="480"></a>
+<a href="https://oceanicdayi.github.io/2026_utaipei_plate_tectonic/artifacts/22-notebook_github_tutorial.mp4"><img src="docs/video/notebook_github_tutorial_poster.jpg" alt="操作教學影片：Notebook 與 GitHub 上手指南（點擊播放）" width="480"></a>
 
-*點圖片開啟影片（中文旁白、內嵌字幕，另附 [字幕檔](docs/video/notebook_github_tutorial.vtt)）。*
+*點圖片在瀏覽器播放（中文旁白、內嵌字幕）。影片檔與字幕檔也收在 [docs/video/](docs/video/)，可下載離線觀看。*
 
 前兩份是 Colab Notebook，各自包含環境設置，可獨立開始；第三份是說明文件加範例程式，執行環境自己準備：
 
@@ -87,7 +87,7 @@ Notebook 會在執行時下載資料並產生圖片，請保持網路連線。
 2. **將作品上傳 GitHub，繳交 repository 連結**，並確認教師能開啟。
 3. **附上 AI 對話紀錄**：把和 AI 來回的過程存進同一個 repository，例如對話分享連結、匯出的文字檔或截圖。不用整理，重點是看得到你怎麼提問、AI 改了什麼、你怎麼檢查。
 
-建立 repository、上傳檔案與繳交前的檢查步驟，見 [操作教學影片](docs/video/notebook_github_tutorial.mp4) 後半段。
+建立 repository、上傳檔案與繳交前的檢查步驟，見 [操作教學影片](https://oceanicdayi.github.io/2026_utaipei_plate_tectonic/artifacts/22-notebook_github_tutorial.mp4) 後半段。
 
 判斷對錯不是主要分數；圖是否完整可讀、推論是否有圖上證據、有沒有誠實寫出不確定，才是。兩週後繳交，答案在板塊構造課對照板塊邊界模型一起揭曉。
 

@@ -2,6 +2,8 @@
 
 成品在 [`docs/video/notebook_github_tutorial.mp4`](../docs/video/notebook_github_tutorial.mp4)（約 8 分鐘，1080p，中文語音合成旁白、字幕燒在畫面上；另附 `.vtt` 字幕與封面圖）。
 
+GitHub 的檔案頁面無法播放這麼大的影片，所以課程 README 連到 [2026_utaipei_plate_tectonic](https://github.com/oceanicdayi/2026_utaipei_plate_tectonic) 的 GitHub Pages 上的同一份檔案（`artifacts/22-notebook_github_tutorial.mp4`）來線上播放。重新產生影片後，記得也更新那邊的檔案。
+
 內容依序是：整體流程（GitHub → Colab → GitHub）→ 從課程首頁開啟 Notebook → 在 Colab 登入、存副本、分開執行兩格「準備環境」→ 儲存格與 Shift+Enter → Notebook 01 逐步取消註解畫出台灣 → 看懂 NameError、重新啟動並全部執行 → 下載 USGS 地震並畫圖 → 作業要求 → 建立 repository、上傳檔案、繳交前檢查 → 複習。
 
 ## 兩支腳本

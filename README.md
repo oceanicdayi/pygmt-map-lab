@@ -10,6 +10,10 @@
 
 第一次用 Notebook 或 GitHub？先看 [操作教學影片（約 8 分鐘）](docs/video/notebook_github_tutorial.mp4)：從開啟 Colab、一格一格執行、看懂錯誤訊息，到用 GitHub 繳交作業。
 
+<a href="docs/video/notebook_github_tutorial.mp4"><img src="docs/video/notebook_github_tutorial_poster.jpg" alt="操作教學影片：Notebook 與 GitHub 上手指南（點擊播放）" width="480"></a>
+
+*點圖片開啟影片（中文旁白、內嵌字幕，另附 [字幕檔](docs/video/notebook_github_tutorial.vtt)）。*
+
 前兩份是 Colab Notebook，各自包含環境設置，可獨立開始；第三份是說明文件加範例程式，執行環境自己準備：
 
 - [01｜基本地圖與地震](https://colab.research.google.com/github/jimmy60504/pygmt-map-lab/blob/main/01_maps_earthquakes.ipynb)
